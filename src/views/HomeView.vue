@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <ThreeDemo3 />
+    <BasicBoxBall />
   </div>
 </template>
 
 <script>
-import ThreeDemo3 from "@/views/3d/ThreeDemo3.vue";
+import BasicBoxBall from "@/views/3d/BasicBoxBall.vue";
 export default {
   name: "HomeView",
   components: {
-    ThreeDemo3,
+    BasicBoxBall,
   },
 };
 </script>
